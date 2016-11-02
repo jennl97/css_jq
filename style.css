@@ -1,0 +1,51 @@
+body{
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.constrain {
+    max-width: 1060px;
+    min-height: 500px;
+    padding-left: 2em;
+}
+
+.right{
+    float: right;
+    text-align: center;
+    font-weight: 600;
+    padding: 2em;
+}
+
+#small {
+    font-size: 1em;
+    padding-right: .5em;
+    cursor: pointer; }
+
+#medium {
+    font-size: 1.3em;
+    padding-right: .5em;
+    cursor: pointer; }
+
+#large {
+    font-size: 1.6em;
+    cursor: pointer; }
+
+.highlight {
+    background: #00ff00;)
+    font-weight: 500; }
+
+@media print {
+    h1, h2, h3, p {
+        color: red;
+    }
+    body {
+        color: #000;
+        background: none;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    @page  {
+        margin: 2cm;
+    }
+}
